@@ -10,8 +10,8 @@ public class EmailUtility {
     // Paramètres SMTP (Exemple avec un compte Gmail, pensez à activer "l'accès aux applications moins sécurisées" ou générer un "Mot de passe d'application")
     private static final String HOST = "smtp.gmail.com";
     private static final String PORT = "587";
-    private static final String SENDER_EMAIL = "mohammed.saissi04@gmail.com"; // Votre e-mail de labo
-    private static final String SENDER_PASSWORD = "zmwp depr czqq onng\r\n"; // Mot de passe d'application
+    private static final String SENDER_EMAIL = "......."; // Votre e-mail de labo
+    private static final String SENDER_PASSWORD = "......."; // Mot de passe d'application
 
     public static void sendTemporaryPassword(String recipientEmail, String recipientName, String rawPassword) {
         Properties properties = new Properties();
